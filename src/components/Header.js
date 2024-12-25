@@ -1,8 +1,13 @@
+// src/components/Header.js
+// header component
+
 import React from 'react';
 import logo from '../assets/images/logo.png';
 import '../assets/styles/main.css';
 
 function Header() {
+    // return the header/navigation bar
+    // logo/about me/projects/contact
     return (
         <header className="main-header">
             <img src={logo} alt="Logo" />

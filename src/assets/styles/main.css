@@ -3,7 +3,7 @@
 
 body {
     height: 125vh;
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: white;
     margin-top: 100px;
     padding: 40px;
@@ -61,3 +61,52 @@ header img {
     margin: 0px;
 }
 /* end of main title */
+
+/* start of projects page */
+.main-projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    margin-top: -25vh;
+}
+
+.main-projects-container h2 {
+    font-size: 40px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    margin: 40px;
+}
+
+.project img {
+    height: 320px;
+    width: 560px;
+    margin-right: 40px;
+    border: 1px solid black;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.project-info h3 {
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.project-info p {
+    margin: 0px;
+}
+/* end of projects page */

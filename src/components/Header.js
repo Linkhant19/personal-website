@@ -2,7 +2,8 @@
 // header component
 
 import React from 'react';
-import logo from '../assets/images/logo.png';
+// import logo from '../assets/images/logo.png';
+import logo2 from '../assets/images/logo2.JPG';
 import '../assets/styles/main.css';
 
 function Header() {
@@ -10,7 +11,7 @@ function Header() {
     // logo/about me/projects/contact
     return (
         <header className="main-header">
-            <img src={logo} alt="Logo" />
+            <img src={logo2} alt="Logo" />
             <nav>
                 <ul>
                     <li><a href="about_me.html">About Me</a></li>

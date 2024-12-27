@@ -37,7 +37,7 @@ function Projects() {
     // return the projects page (under the main title)
     return (
         <main className="main-projects-container">
-            <h2>PROJECTS</h2>
+            <h2>HIGHLIGHTS</h2>
             <div className='main-projects'>
                 {projects.map((project, index) => (
                     <div key={index} className='project'>

@@ -131,8 +131,8 @@ header img {
 }
 
 .main-all-projects-container img {
-    width: 30vw;
-    height: auto;
+    width: 32vw;
+    height: 20vw;
     opacity: 100%;
     position: relative;
     border: 1px solid black;
@@ -148,6 +148,8 @@ header img {
     justify-content: space-around;
     
 }
+
+
 
 .each-project {
     display: flex;
@@ -166,12 +168,12 @@ header img {
     color: black;
     font-weight: bold;
     font-size: 40px;
-    opacity: 0%;
+    opacity: 0%;   /* testing crucial line */
     transition: 1s ease;
 }
 
 .each-project:hover img {
-    opacity: 15%;
+    opacity: 12%;
     /* I got this hover inspiration from: https://codepen.io/gayane-gasparyan/pen/wvxewXO */
     transform: perspective(1500px) translateY(-5%) rotateX(45deg) translateZ(0);
 }
@@ -179,7 +181,7 @@ header img {
 .each-project:hover .each-project-info {
     opacity: 100%;
     text-shadow: -2px 100px 17px grey;
-    top: -25%;
+    top: -29%;
 }
 
 .each-project-info p {
@@ -190,6 +192,13 @@ header img {
     padding: 0px;
     text-align: left;
 }
+
+.each-project-info .subtitle {
+    font-style: italic;
+    margin-bottom: 50px;
+    padding-left: 130px;
+}
+
 /* end of all projects page */
 
 /* start of coffee chat view*/
@@ -255,3 +264,4 @@ header img {
 .name {
     font-style: italic;
 }
+/* end of footer */

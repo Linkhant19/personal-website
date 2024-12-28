@@ -15,7 +15,7 @@ function Header() {
             <nav>
                 <ul>
                     <li><a href="about_me.html">About LIN</a></li>
-                    <li><a href="choose_character.html">Choose Character</a></li>
+                    <li><a href="/characters">Choose Character</a></li>
                     <li><a href="roadmap.html">Roadmap</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>

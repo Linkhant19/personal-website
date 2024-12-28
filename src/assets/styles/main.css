@@ -41,7 +41,7 @@ header img {
 }
 
 .main-header li {
-    margin: 5vw;
+    margin: 50px;
 }
 
 .main-header li a {
@@ -190,3 +190,49 @@ header img {
     padding: 0px;
     text-align: left;
 }
+/* end of all projects page */
+
+/* start of coffee chat view*/
+.main-coffee-chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30vh;
+    padding-bottom: 400px;
+}
+
+.main-coffee-chat-container img {
+    width: 6vw;
+    height: auto;
+    padding: 1vw;
+}
+
+.main-coffee-chat-container h2 {
+    font-size: 80px;
+    padding-bottom: 0px;
+}
+
+.main-coffee-chat-container a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+    transition: 1s ease;
+}
+
+.main-coffee-chat-container a:hover {
+    color: rgb(27, 96, 157);
+}
+
+.main-coffee-chat-links {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    margin-left: 45vw;
+}
+/* end of coffee chat view*/

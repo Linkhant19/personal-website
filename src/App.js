@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 import Projects from './components/Projects';
 import AllProjects from './components/AllProjects';
+import CoffeeChat from './components/CoffeeChat';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Main />
       <Projects />
       <AllProjects />
+      <CoffeeChat />
     </div>
   );
 }

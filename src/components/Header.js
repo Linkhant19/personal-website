@@ -11,10 +11,12 @@ function Header() {
     // logo/about me/projects/contact
     return (
         <header className="main-header">
-            <img src={logo2} alt="Logo" />
+            {/* <img src={logo2} alt="Logo" /> */}
             <nav>
                 <ul>
-                    <li><a href="about_me.html">Change Character</a></li>
+                    <li><a href="about_me.html">About LIN</a></li>
+                    <li><a href="choose_character.html">Choose Character</a></li>
+                    <li><a href="roadmap.html">Roadmap</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>

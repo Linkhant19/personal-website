@@ -1,5 +1,5 @@
 // src/components/Home.js
-// home component 
+// home page component 
 
 import React from 'react';
 import '../assets/styles/main.css';

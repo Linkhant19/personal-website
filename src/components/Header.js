@@ -14,10 +14,10 @@ function Header() {
             {/* <img src={logo2} alt="Logo" /> */}
             <nav>
                 <ul>
-                    <li><a href="about_me.html">About LIN</a></li>
+                    <li><a href="/">About LIN</a></li>
                     <li><a href="/characters">Choose Character</a></li>
-                    <li><a href="roadmap.html">Roadmap</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="/roadmap">Roadmap</a></li>
+                    <li><a href="/contact">Contact</a></li>
                 </ul>
             </nav>
         </header>

@@ -12,6 +12,7 @@ function Contact() {
     return (
         <div className="Contact">
             <Header />
+            <h2>CONTACT ME</h2>
             <Form />
             <Footer />
         </div>

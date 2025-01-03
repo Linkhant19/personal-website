@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.20a2f0c5.css",
+    "main.js": "/personal-website/static/js/main.ed61551d.js",
+    "static/js/488.4ff13bf5.chunk.js": "/personal-website/static/js/488.4ff13bf5.chunk.js",
+    "static/media/escaperoom.gif": "/personal-website/static/media/escaperoom.29bdd24048339bb60bac.gif",
+    "static/media/photo2.JPG": "/personal-website/static/media/photo2.b8e5fa1cf5ae3e59b175.JPG",
+    "static/media/hideandseek2.gif": "/personal-website/static/media/hideandseek2.a72ae2dc4c978cb660e0.gif",
+    "static/media/logo2.JPG": "/personal-website/static/media/logo2.df1c572850cd159f5fb4.JPG",
+    "static/media/photo1.JPG": "/personal-website/static/media/photo1.df1c572850cd159f5fb4.JPG",
+    "static/media/livablestreets.gif": "/personal-website/static/media/livablestreets.ad32831ce5670d02ef49.gif",
+    "static/media/hideandseek.gif": "/personal-website/static/media/hideandseek.c169497abb5c67f12b55.gif",
+    "static/media/shadowsofyou.gif": "/personal-website/static/media/shadowsofyou.2a5f837a316e183f058d.gif",
+    "static/media/photo3.JPG": "/personal-website/static/media/photo3.1d5f159f3b636454878e.JPG",
+    "static/media/photo4.JPG": "/personal-website/static/media/photo4.17b746b7783471f18827.JPG",
+    "static/media/coffee.gif": "/personal-website/static/media/coffee.a53cb9e2205fb89e477d.gif",
+    "index.html": "/personal-website/index.html",
+    "main.20a2f0c5.css.map": "/personal-website/static/css/main.20a2f0c5.css.map",
+    "main.ed61551d.js.map": "/personal-website/static/js/main.ed61551d.js.map",
+    "488.4ff13bf5.chunk.js.map": "/personal-website/static/js/488.4ff13bf5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20a2f0c5.css",
+    "static/js/main.ed61551d.js"
+  ]
+}

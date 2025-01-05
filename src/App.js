@@ -8,14 +8,20 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <BrowserRouter basename="/personal-website"> 
-      <Routes>
-        <Route exact path="/personal-website" element={<Home />} />
+    // <BrowserRouter basename="/personal-website"> 
+    //   <Routes>
+    //     <Route exact path="/personal-website" element={<Home />} />
+    //     <Route path="/characters" element={<Characters />} />
+    //     <Route path="/roadmap" element={<Roadmap />} />
+    //     <Route path="/contact" element={<Contact />} />
+    //   </Routes>
+    // </BrowserRouter>
+    <Routes>
+        <Route exact path="/" element={<Home />} />
         <Route path="/characters" element={<Characters />} />
         <Route path="/roadmap" element={<Roadmap />} />
         <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </BrowserRouter>
+    </Routes>
   );
 }
 

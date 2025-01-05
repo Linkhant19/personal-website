@@ -1,8 +1,8 @@
 {
   "homepage": "https://linkhant19.github.io/personal-website",
-  "name": "mywebsite",
+  "name": "personal-website",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "cra-template": "1.2.0",

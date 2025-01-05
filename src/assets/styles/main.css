@@ -1,0 +1,400 @@
+/* src/assets/styles/main.css */
+/* main css for my website */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    margin-top: 100px;
+    padding: 40px;
+}
+
+h2 {
+    font-size: 40px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    text-align: center;
+}
+
+/* start of navigation bar */
+header img {
+    height: 60px;
+    width: auto;
+    margin-left: 40px;
+}
+
+.main-header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.main-header * {
+    display: inline;
+}
+
+.main-header li {
+    margin: 50px;
+}
+
+.main-header li a {
+    color: black;
+    text-decoration: none;
+}
+
+.main-header li a:hover {
+    text-decoration: underline;
+}
+/* end of navigation bar */
+
+/* start of main title */
+.main-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    height: 100vh;
+    margin-top: 17vh;
+}
+
+.main-title h1 {
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+/* end of main title */
+
+/* start of select projects page */
+.main-projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    margin-top: -25vh;
+}
+
+.main-projects-container h2 {
+    font-size: 40px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    margin: 40px;
+}
+
+.project img {
+    height: 320px;
+    width: 560px;
+    margin-right: 40px;
+    border: 1px solid black;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.project-info h3 {
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.project-info p {
+    margin: 0px;
+}
+/* end of select projects page */
+
+/* start of all projects page */
+.main-all-projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10vh;
+    z-index: 1;
+}
+
+.main-all-projects-container img {
+    width: 32vw;
+    height: 20vw;
+    opacity: 100%;
+    position: relative;
+    border: 1px solid black;
+    transition: 0.5s ease; 
+    transform-origin: center;
+}
+
+.main-all-projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: top;
+    justify-content: space-around;
+    
+}
+
+
+
+.each-project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 40vw; 
+    margin-top: 8vw;
+}
+
+.each-project-info {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    opacity: 0%;   /* testing crucial line */
+    transition: 1s ease;
+}
+
+.each-project:hover img {
+    opacity: 12%;
+    /* I got this hover inspiration from: https://codepen.io/gayane-gasparyan/pen/wvxewXO */
+    transform: perspective(1500px) translateY(-5%) rotateX(45deg) translateZ(0);
+}
+
+.each-project:hover .each-project-info {
+    opacity: 100%;
+    text-shadow: -2px 100px 17px grey;
+    top: -29%;
+}
+
+.each-project-info p {
+    font-weight: normal;
+    font-size: 15px;
+    margin: 90px;
+    margin-top: -35px;
+    padding: 0px;
+    text-align: left;
+}
+
+.each-project-info .subtitle {
+    font-style: italic;
+    margin-bottom: 50px;
+    padding-left: 130px;
+}
+
+/* end of all projects page */
+
+/* start of coffee chat view*/
+.main-coffee-chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30vh;
+    padding-bottom: 300px;
+}
+
+.main-coffee-chat-container img {
+    width: 6vw;
+    height: auto;
+    padding: 1vw;
+}
+
+.main-coffee-chat-container h2 {
+    font-size: 80px;
+    padding-bottom: 0px;
+}
+
+.main-coffee-chat-container a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+    transition: 1s ease;
+}
+
+.main-coffee-chat-container a:hover {
+    color: rgb(27, 96, 157);
+}
+
+.main-coffee-chat-links {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    margin-left: 45vw;
+}
+/* end of coffee chat view*/
+
+/* start of footer */
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    margin: 30px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+}
+
+.main-footer p {
+    margin-top: -10px;
+    text-align: center;
+}
+
+.name {
+    font-style: italic;
+}
+/* end of footer */
+
+/* start of characters view page */
+.main-all-characters-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10vh;
+    z-index: 1;
+}
+
+.main-all-characters-container img {
+    width: 32vw;
+    height: auto;
+    opacity: 100%;
+    position: relative;
+    border: 1px solid black;
+    transition: 0.5s ease; 
+    transform-origin: center;
+}
+
+.main-all-characters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: top;
+    justify-content: space-around;
+    
+}
+
+.each-character { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 4vw; 
+    margin-top: 8vw;
+}
+
+.each-character-info {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    opacity: 0%;   /* testing crucial line */
+    transition: 1s ease;
+}
+
+.each-character:hover img {
+    opacity: 12%;
+    /* I got this hover inspiration from: https://codepen.io/gayane-gasparyan/pen/wvxewXO */
+    transform: perspective(1500px) translateY(-5%) rotateX(45deg) translateZ(0);
+}
+
+.each-character:hover .each-character-info {
+    opacity: 100%;
+    text-shadow: -2px 100px 17px grey;
+    top: -29%;
+}
+
+.each-character-info p {
+    font-weight: normal;
+    font-size: 15px;
+    margin: 90px;
+    margin-top: -35px;
+    padding: 0px;
+    text-align: left;
+}
+
+/* end of characters view page */
+
+
+/* start of contact page */
+
+form {
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+width: calc(100% - 60px);
+font-size: 16px;
+margin: 30px;
+
+input {
+    width: 100%;
+    height: 35px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+
+    &:focus {
+    border: 2px solid rgba(0, 206, 158, 1);
+    }
+}
+
+textarea {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    max-height: 100px;
+    min-height: 100px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+
+    &:focus {
+    border: 2px solid rgba(0, 206, 158, 1);
+    }
+}
+
+label {
+    margin-top: 1rem;
+}
+
+input[type="submit"], button {
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    padding: 7px;
+    margin-top: 2rem;
+    cursor: pointer;
+    background: rgb(236, 105, 11);
+    color: white;
+    border: none;
+}
+}
+
+/* end of contact page */

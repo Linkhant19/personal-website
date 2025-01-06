@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import Home from './components/Home';
 import Characters from './components/Characters';
@@ -8,12 +8,15 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div>
-      <Route exact path="/" element={<Home />} />
-      <Route path="/characters" element={<Characters />} />
-      <Route path="/roadmap" element={<Roadmap />} />
-      <Route path="/contact" element={<Contact />} />
-    </div>
+    <HashRouter>
+      <Routes>
+      <Route path="/" Component={Home} />
+      <Route path="/characters" Component={Characters} />
+      <Route path="/roadmap" Component={Roadmap} />
+      <Route path="/contact" Component={Contact} />
+      <Route path="*" Component={Error} />
+      </Routes>
+    </HashRouter>
   );
 }
 

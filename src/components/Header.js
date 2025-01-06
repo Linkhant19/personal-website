@@ -15,9 +15,9 @@ function Header() {
             <nav>
                 <ul>
                     <li><a href="/">About LIN</a></li>
-                    <li><a href="/characters">Choose Character</a></li>
-                    <li><a href="/roadmap">Roadmap</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/personal-website/#/characters">Choose Character</a></li>
+                    <li><a href="/personal-website/#/roadmap">Roadmap</a></li>
+                    <li><a href="/personal-website/#/contact">Contact</a></li>
                 </ul>
             </nav>
         </header>

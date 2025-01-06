@@ -6,8 +6,9 @@ import '../assets/styles/main.css';
 
 // list to hold projects (each will have a title, image, description, and link(will implement link later))
 const project1_src = require('../assets/images/hideandseek2.gif');
-const project2_src = require('../assets/images/livablestreets.gif');
-const project3_src = require('../assets/images/shadowsofyou.gif');
+const project2_src = require('../assets/images/commutebeat.gif');
+const project3_src = require('../assets/images/placeholder.gif');
+const project4_src = require('../assets/images/livablestreets.gif');
 
 const projects = [
     {
@@ -21,22 +22,22 @@ const projects = [
         title: 'COMMUTEBEAT (Full-Stack Web App)',
         image_src: project2_src,
         link: '',
-        description: '',
-        description2: ''
+        description: "My team and I developed a user-centric web application using Flask, and React while integrating Spotify, Weather, and geolocation APIs to provide personalized travel and music recommendations based on user's preferred mode of transportation.",
+        description2: "We also utilized MongoDB Cloud in backend for robust and secure data storage, capturing user preferences and historical data.",
     },
     {
         title: 'SEVEN WAYS TO HEAVEN (Front-End focused personal project)',
         image_src: project3_src,
         link: '',
-        description: '',
+        description: 'The project is actively being worked on right at this moment. Coming very soon!',
         description2: ''
     },
     {
         title: 'LIVABLE STREETS (Data Analysis project)',
-        image_src: project2_src,
+        image_src: project4_src,
         link: '',
-        description: '',
-        description2: ''
+        description: 'I took on the role of a Team Representative in this Data Science project where our Massachusetts Bay Transportation Authority (MBTA) client wanted a report of all the cleaned data, graphs, and possible relationships between displacement and bike lanes.',
+        description2: 'My team and I used Python and its libraries such as NumPy, pandas, Seaborn, matplotlib, and more to extract useful information from the raw data that we obtained from our own research, transform them into different types of graphs, and observe possible correlations.'
     },
 ];
 

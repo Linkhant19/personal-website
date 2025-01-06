@@ -24,7 +24,7 @@ function CoffeeChat() {
                     <p>Github</p>
                 </a>
                 {/* contact me */}
-                <a href="contact.html" target='_blank'>
+                <a href="/personal-website/#/contact" target='_blank'>
                     <p>Contact Me</p>
                 </a>
             </div>

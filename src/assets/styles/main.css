@@ -1,19 +1,27 @@
 /* src/assets/styles/main.css */
 /* main css for my website */
 
+/* imports from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bentham&family=Fredericka+the+Great&display=swap');
+
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Bentham", serif;
     background-color: white;
     margin-top: 100px;
     padding: 40px;
+    transition: background-color .75s ease;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 70px;
     color: black;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Bentham", serif;
     margin: 0px;
     text-align: center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* start of navigation bar */
@@ -24,7 +32,6 @@ header img {
 }
 
 .main-header {
-    background-color: white;
     position: fixed;
     top: 0;
     left: 0;
@@ -33,7 +40,17 @@ header img {
     display: flex;
     align-items: center;
     z-index: 1;
+    transition: background-color .75s ease;
 }
+
+.main-header.dark {
+    background-color: black;
+}
+
+.main-header.light {
+    background-color: white;
+}
+
 
 .main-header * {
     display: inline;
@@ -44,8 +61,15 @@ header img {
 }
 
 .main-header li a {
-    color: black;
     text-decoration: none;
+    transition: color .75s ease;
+}
+
+.main-header.dark li a {
+    color: white;
+}
+.main-header.light li a {
+    color: black;
 }
 
 .main-header li a:hover {
@@ -64,13 +88,14 @@ header img {
 }
 
 .main-title h1 {
-    font-size: 90px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 7em;
+    font-family: "Bentham", serif;
     margin: 0px;
 }
 /* end of main title */
 
 /* start of select projects page */
+
 .main-projects-container {
     display: flex;
     flex-direction: column;
@@ -130,13 +155,18 @@ header img {
 }
 
 .main-all-projects-container img {
-    width: 32vw;
-    height: 20vw;
+    width: 34vw;
+    height: 21vw;
     opacity: 100%;
     position: relative;
-    border: 1px solid black;
+    border: 1px solid white;
+    border-radius: 5px;
     transition: 0.5s ease; 
     transform-origin: center;
+}
+
+.main-all-projects-container h2 {
+    color: white;
 }
 
 .main-all-projects {
@@ -147,8 +177,6 @@ header img {
     justify-content: space-around;
     
 }
-
-
 
 .each-project {
     display: flex;
@@ -164,7 +192,7 @@ header img {
     top: 25%;
     width: 100%;
     text-align: center;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 40px;
     opacity: 0%;   /* testing crucial line */
@@ -217,8 +245,9 @@ header img {
 }
 
 .main-coffee-chat-container h2 {
-    font-size: 80px;
+    font-size: 100px;
     padding-bottom: 0px;
+    color: white;
 }
 
 .main-coffee-chat-container a {
@@ -227,7 +256,7 @@ header img {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 17px;
-    color: black;
+    color: white;
     text-decoration: none;
     transition: 1s ease;
 }
@@ -257,6 +286,8 @@ header img {
 }
 
 .main-footer p {
+    color: white;
+    font-family: "Bentham", serif;
     margin-top: -10px;
     text-align: center;
 }

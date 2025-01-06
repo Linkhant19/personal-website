@@ -5,7 +5,7 @@ import React from 'react';
 import '../assets/styles/main.css';
 
 const project1_src = require('../assets/images/escaperoom.gif');
-const project2_src = require('../assets/images/hideandseek.gif');
+const project2_src = require('../assets/images/fullstackjourney.gif');
 const project3_src = require('../assets/images/shadowsofyou.gif');
 
 const all_projects = [
@@ -18,13 +18,11 @@ const all_projects = [
         I coded this website with original mini-puzzles and interesting lore.',
     },
     {
-        title: 'My Django Journey',
-        subtitle: '...along with mini full-stack web applications',
+        title: 'My Full-Stack Journey - Fall 2024',
         image_src: project2_src,
         link: '',
-        description: 'An interactive website served as a promotional material for the Escape Room event \
-        I hosted as the President of the Board Games Club. Using HTML, CSS, and JavaScript, \
-        I coded this website with original mini-puzzles and interesting lore.',
+        description: 'During my Full-Stack Development class at Boston University, I created multiple full-stack web applications. \
+        using Python, JavaScript, and HTML/CSS, and learned about APIs, Django framework, Git, Heroku, Databases, Data Visualization, and more.',
     },
     {
         title: 'Shadow of You',

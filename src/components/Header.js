@@ -2,8 +2,6 @@
 // header component
 
 import React, { useState, useEffect } from 'react';
-// import logo from '../assets/images/logo.png';
-import logo2 from '../assets/images/logo2.JPG';
 import '../assets/styles/main.css';
 
 function Header() {
@@ -32,10 +30,10 @@ function Header() {
             {/* <img src={logo2} alt="Logo" /> */}
             <nav>
                 <ul>
-                    <li><a href="/" >About LIN</a></li>
-                    <li><a href="/personal-website/#/characters" >Choose Character</a></li>
-                    <li><a href="/personal-website/#/roadmap" >Roadmap</a></li>
-                    <li><a href="/personal-website/#/contact" >Contact</a></li>
+                    <li><a href="/" >LK</a></li>
+                    <li><a href="/personal-website/#/characters" >CHOOSE CHARACTER</a></li>
+                    <li><a href="/personal-website/#/roadmap" >ROADMAP</a></li>
+                    <li><a href="/personal-website/#/contact" >CONTACT</a></li>
                 </ul>
             </nav>
         </header>

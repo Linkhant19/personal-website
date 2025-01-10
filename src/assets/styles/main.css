@@ -18,6 +18,7 @@ h2 {
     font-family: "Bentham", serif;
     margin: 0px;
     text-align: center;
+    font-weight: normal;
 }
 
 p {
@@ -81,16 +82,22 @@ header img {
 .main-title-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: top;
     height: 100vh;
-    margin-top: 17vh;
+    margin-top: 10vh;
+    margin-left: 30%;
+}
+
+.main-title {
+    margin-bottom: 30px;
 }
 
 .main-title h1 {
-    font-size: 7em;
+    font-size: 9em;
     font-family: "Bentham", serif;
     margin: 0px;
+    line-height: 120px;
 }
 /* end of main title */
 
@@ -185,7 +192,7 @@ header img {
     height: 21vw;
     opacity: 100%;
     position: relative;
-    border: 1px solid white;
+    border: 1px solid #222222;
     border-radius: 5px;
     transition: 0.5s ease; 
     transform-origin: center;
@@ -193,6 +200,9 @@ header img {
 
 .main-all-projects-container h2 {
     color: white;
+    font-weight: none;
+    font-size: 50px;
+    letter-spacing: 3px;
 }
 
 .main-all-projects {
@@ -308,15 +318,22 @@ header img {
     align-items: start;
     justify-content: end;
     margin: 30px;
-    margin-top: 0px;
-    padding-bottom: 30px;
+}
+
+.main-footer.dark {
+    color: white;
+    font-family: "Bentham", serif;
+    text-align: center;
+}
+
+.main-footer.light {
+    color: black;
+    font-family: "Bentham", serif;
+    text-align: center;
 }
 
 .main-footer p {
-    color: white;
-    font-family: "Bentham", serif;
     margin-top: -10px;
-    text-align: center;
 }
 
 .name {
@@ -396,6 +413,8 @@ header img {
 }
 
 /* end of characters view page */
+
+
 
 
 

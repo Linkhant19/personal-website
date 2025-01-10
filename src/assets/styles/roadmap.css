@@ -1,0 +1,68 @@
+/* start of roadmap view page */
+.Roadmap p {
+    color: black;
+}
+
+/* this h2 will stay in the center always even when scrolling */
+.Roadmap h2 {
+    position: fixed;
+    top: 15vh;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10; 
+}
+
+.roadmap-container {
+    display: flex;
+    flex-direction: row;
+    width: 150vw;
+    gap: 30px;
+    margin-left: 20vw;
+}
+
+.roadmap-experience {
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    justify-content: top;
+    width: 35vw;
+    height: 40vh;
+    margin: 30px;
+    margin-top: 120px;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    animation: backgroundgold 5s forwards;
+    animation-delay: 5s;
+}
+
+/* line to connect all the experiences */
+.line {
+    width: 0vw;
+    height: 3px;
+    margin-left: -5vw;
+    background-color: black;
+    margin-top: 300px;
+    position: fixed;
+    z-index: -1;
+    animation: stretchright 30s forwards;
+}
+
+@keyframes stretchright {
+    0% {
+        width: 0vw;
+    }
+    100% {
+        width: 150vw;
+    }
+}
+
+@keyframes backgroundgold {
+    0% {
+        background-color: white;
+    }
+    100% {
+        background-color: rgb(255, 230, 141);
+    }
+}

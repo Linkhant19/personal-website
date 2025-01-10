@@ -12,8 +12,8 @@ function Form() {
         e.preventDefault();
 
         emailjs
-            .sendForm('service_a2afx0j', 'template_izowwx8', form.current, {
-                publicKey: '4gbdHniBHZ71kEPcU',
+            .sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, form.current, {
+                publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
             })
             .then(
                 () => {

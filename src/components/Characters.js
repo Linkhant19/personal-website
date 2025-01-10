@@ -35,8 +35,10 @@ function Characters() {
             <Header />
 
             {/* testing purposes */}
+            <h2>this page is actively being worked on</h2>
+            <img src={require('../assets/images/coding.gif')} alt='coding gif'/>
 
-            <main className="main-all-characters-container">
+            {/* <main className="main-all-characters-container">
                 <h2>Choose your CHARACTER</h2>
                 <div className='main-all-characters'>
                     {characters.map((character, index) => (
@@ -48,7 +50,7 @@ function Characters() {
                         </div>
                     ))}
                 </div>
-            </main>
+            </main> */}
 
             <Footer />
         </div>

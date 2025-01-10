@@ -4,6 +4,11 @@
 import React from 'react';
 import '../assets/styles/main.css';
 
+// for my Linkedin and other icons
+import { FaLinkedin } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+import { FaEnvelope } from 'react-icons/fa';
+
 function CoffeeChat() {
     return (
         <main className="main-coffee-chat-container">
@@ -13,7 +18,7 @@ function CoffeeChat() {
             <div className='main-coffee-chat-links'>
                 {/* linkedin */}
                 <a href="https://www.linkedin.com/in/linkhantko/" target='_blank'>
-                    <p>Linkedin</p>
+                    <p>Linkedin <FaLinkedin /></p>
                 </a>
                 {/* email */}
                 {/* <a href="mailto:lkk19@bu.edu" target='_blank'>
@@ -21,11 +26,11 @@ function CoffeeChat() {
                 </a> */}
                 {/* github */}
                 <a href="https://github.com/Linkhant19" target='_blank'>
-                    <p>Github</p>
+                    <p>Github <FaGithub /></p>
                 </a>
                 {/* contact me */}
                 <a href="/personal-website/#/contact" target='_blank'>
-                    <p>Contact Me</p>
+                    <p>Contact Me <FaEnvelope /></p>
                 </a>
             </div>
         </main>

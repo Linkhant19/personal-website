@@ -36,11 +36,11 @@ function Form() {
             <form ref={form} onSubmit={sendEmail}>
                 {!isSubmitted ? (
                     <>
-                        <label>Name</label>
+                        <label>name</label>
                         <input type="text" name="user_name" required />
-                        <label>Email</label>
+                        <label>email</label>
                         <input type="email" name="user_email" required />
-                        <label>Message</label>
+                        <label>message</label>
                         <textarea name="message" required />
                         <input type="submit" value="Send" />
                     </>

@@ -10,16 +10,20 @@ function Header() {
     const [isDark, setIsDark] = useState(false); 
 
     useEffect(() => {
-        const handleScroll = () => {
-            const scrollTop = window.scrollY;
-            const threshold = 2150;
-
-            setIsDark(scrollTop > threshold); 
-        };
-
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
+        if (window.location.hash === '#/contact') {
+            setIsDark(true); // Dark mode for contact page
+        } else {
+            const handleScroll = () => {
+                const scrollTop = window.scrollY;
+                const threshold = 2150;
+                setIsDark(scrollTop > threshold);
+            };
+    
+            window.addEventListener('scroll', handleScroll);
+            return () => window.removeEventListener('scroll', handleScroll);
+        }
     }, []);
+    
 
     // return the header/navigation bar
     // logo/about me/projects/contact

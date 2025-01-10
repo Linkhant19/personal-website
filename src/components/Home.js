@@ -20,7 +20,7 @@ function Home() {
             const threshold = 2150; 
 
             if (scrollTop > threshold) {
-                setBgColor('#000000'); 
+                setBgColor('#222222'); 
             } else {
                 setBgColor('white'); 
             }

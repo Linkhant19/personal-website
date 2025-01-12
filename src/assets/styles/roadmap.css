@@ -18,9 +18,10 @@
     width: 150vw;
     gap: 30px;
     margin-left: 20vw;
+    margin-top: 10vh;
 }
 
-.roadmap-experience {
+/* .roadmap-experience {
     display: flex;
     flex-direction: column;
     align-items: top;
@@ -35,6 +36,123 @@
     background-color: white;
     animation: backgroundgold 5s forwards;
     animation-delay: 5s;
+} */
+
+.roadmap-experience {
+    display: inline-block;
+    position: relative;
+    width: 30vw;
+    min-width: 30vw;
+    height: 28vw;
+    border-radius: 30px;
+    overflow:hidden;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+    margin: 30px;
+}
+
+.roadmap-experience img {
+    height: 80%;
+    width: 100%;
+}
+
+.roadmap-experience .text {
+    background-image: linear-gradient(0deg , #5a5a5a, #932b2b);
+    border-radius: 30px;
+    position: absolute;
+    top: 60%;
+    left: -5px;
+    height: 65%;
+    width: 108%;
+    transform: skew(19deg, -9deg);
+    transition: 2.5s ease;
+}
+
+.roadmap-experience:hover .text {
+    transform: skew(89deg, -9deg);
+    /* opacity: 0; */
+}
+
+.logo {
+    height: 6vw;
+    width: 6vw;
+    border-radius: 20px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 30%;
+    left: 30px;
+    overflow:hidden;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.7);
+    transition: 1s ease;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.roadmap-experience:hover .logo {
+    opacity: 0;
+}
+
+.title-text {
+    position: absolute;
+    font-size: 1.8vw;
+    text-align: left;
+    left: 220px;
+    right: 20px;
+    top: 58%;
+}
+
+.title-text h3 {
+    color: white;
+    font-weight: 500;
+}
+
+.date-text p {
+    position: absolute;
+    color: #dadada;
+    left: 30px;
+    bottom: 10%;
+}
+
+.description-text {
+    position: absolute;
+    color: #fff;
+    top: 98%;
+    background-color: #222222;
+    font-size: 1.4vw;
+    line-height: 30px;
+    width: 30vw;
+    min-width: 30vw;
+    height: 28vw;
+    border-radius: 30px;
+    transition: 1s ease;
+    transition-delay: .7s;
+}
+
+.roadmap-experience:hover .description-text {
+    top: 0%;
+}
+
+.arrow {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 1s ease;
+    transition-delay: .7s;
+}
+
+.arrow p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.5vw;
+    color: #222222;
+    text-align: center;
+    margin-top: 1.5vw;
+}
+
+.roadmap-experience:hover .arrow {
+    top: -15%;
 }
 
 /* line to connect all the experiences */

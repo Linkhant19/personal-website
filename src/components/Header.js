@@ -30,7 +30,7 @@ function Header() {
             {/* <img src={logo2} alt="Logo" /> */}
             <nav>
                 <ul>
-                    <li><a href="/" >LK</a></li>
+                    <li><a href="/personal-website/#/" >LK</a></li>
                     <li><a href="/personal-website/#/characters" >CHOOSE CHARACTER</a></li>
                     <li><a href="/personal-website/#/roadmap" >ROADMAP</a></li>
                     <li><a href="/personal-website/#/contact" >CONTACT</a></li>

@@ -8,7 +8,7 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 // list to hold projects (each will have a title, image, description, and link(will implement link later))
 const project1_src = require('../assets/images/hideandseek2.gif');
 const project2_src = require('../assets/images/commutebeat.gif');
-const project3_src = require('../assets/images/placeholder.gif');
+const project3_src = require('../assets/images/sevenwaystoheaven.gif');
 const project4_src = require('../assets/images/livablestreets.gif');
 
 const projects = [
@@ -17,8 +17,16 @@ const projects = [
         image_src: project1_src,
         github_link: 'https://github.com/Linkhant19/hideandseek_fullstack',
         project_link: 'https://still-badlands-57585-0915996d7205.herokuapp.com/',
-        description: "My team and I developed a user-centric web application using Flask, and React while integrating Spotify, Weather, and geolocation APIs to provide personalized travel and music recommendations based on user's preferred mode of transportation.",
+        description: "This game only supports a desktop view.",
         description2: "We also utilized MongoDB Cloud in backend for robust and secure data storage, capturing user preferences and historical data."
+    },
+    {
+        title: 'SEVEN WAYS TO HEAVEN (Front-End React App)',
+        image_src: project3_src,
+        github_link: 'https://github.com/Linkhant19/seven-heaven',
+        project_link: 'https://seven-ways-to-heaven-a241a7b892e1.herokuapp.com/',
+        description: 'This project supports both a desktop and mobile view.',
+        description2: ''
     },
     {
         title: 'COMMUTEBEAT (Full-Stack Web App)',
@@ -27,14 +35,6 @@ const projects = [
         project_link: '',
         description: "My team and I developed a user-centric web application using Flask, and React while integrating Spotify, Weather, and geolocation APIs to provide personalized travel and music recommendations based on user's preferred mode of transportation.",
         description2: "We also utilized MongoDB Cloud in backend for robust and secure data storage, capturing user preferences and historical data.",
-    },
-    {
-        title: 'SEVEN WAYS TO HEAVEN (Front-End focused personal project)',
-        image_src: project3_src,
-        github_link: 'https://github.com/Linkhant19/seven-heaven',
-        project_link: '',
-        description: 'The project is actively being worked on right at this moment. Coming very soon!',
-        description2: ''
     },
     {
         title: 'LIVABLE STREETS (Data Analysis project)',

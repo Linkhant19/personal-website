@@ -8,7 +8,7 @@ function Header() {
     const [isDark, setIsDark] = useState(false); 
 
     useEffect(() => {
-        if (window.location.hash === '#/contact') {
+        if (window.location.hash === '#/contact' || window.location.hash === '#/characters') {
             setIsDark(true); // Dark mode for contact page
         } else {
             const handleScroll = () => {

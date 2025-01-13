@@ -17,16 +17,16 @@ const projects = [
         image_src: project1_src,
         github_link: 'https://github.com/Linkhant19/hideandseek_fullstack',
         project_link: 'https://still-badlands-57585-0915996d7205.herokuapp.com/',
-        description: "This game only supports a desktop view.",
-        description2: "We also utilized MongoDB Cloud in backend for robust and secure data storage, capturing user preferences and historical data."
+        description: "I developed a Full-Stack web application using the Django Framework and hosted it via Heroku. This simple original card game features multiple data models along with data representation, creation, updates, deletion, data types, relationships between models, and use of the Django ORM. The application also has many ways of interacting with data through different Views, Forms, Create, Update, Delete, Search, and more. Moreover, I attended carefully to the user interface, giving it a fun, game-like aesthetic.",
+        description2: "This project only supports a desktop view."
     },
     {
         title: 'SEVEN WAYS TO HEAVEN (Front-End React App)',
         image_src: project3_src,
         github_link: 'https://github.com/Linkhant19/seven-heaven',
         project_link: 'https://seven-ways-to-heaven-a241a7b892e1.herokuapp.com/',
-        description: 'This project supports both a desktop and mobile view.',
-        description2: ''
+        description: 'I wanted to design a website to share my creative writings, so I coded this project using React and hosted it via Heroku. Using JavaScript, HTML, and CSS, I created this website with a dark and enigmatic design that is both visually pleasing and easy to navigate. I also integrated Google Analytics to track user behavior and collect data of my most read poems.',
+        description2: 'This project supports both a desktop and mobile view.'
     },
     {
         title: 'COMMUTEBEAT (Full-Stack Web App)',

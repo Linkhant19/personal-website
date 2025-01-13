@@ -12,6 +12,8 @@ import CoffeeChat from './CoffeeChat';
 import Footer from './Footer';
 
 function Home() {
+    // set the background color to white
+    document.body.style.backgroundColor = 'white';
     const [bgColor, setBgColor] = useState('white'); 
 
     useEffect(() => {

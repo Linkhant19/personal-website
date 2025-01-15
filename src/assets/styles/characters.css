@@ -97,4 +97,38 @@
 
 /* right side ends */
 
+/* @media queries */
+@media screen and (max-width: 770px) {
+    .character-page-container {
+        flex-direction: column;
+    }
+
+    .character-page-left-side {
+        width: 80vw;
+    }
+
+    .character-page-right-side {
+        width: 80vw;
+        text-align: center;
+    }
+
+    .selected-character-info h2 {
+        font-size: 2em;
+    }
+
+    .selected-character-info p {
+        font-size: 1em;
+    }
+
+    .each-character img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .all-characters-title {
+        margin-bottom: 0px;
+    }
+}
+
 /* end of characters page view */
+

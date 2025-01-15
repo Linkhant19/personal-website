@@ -372,6 +372,34 @@ header img {
 }
 /* end of footer */
 
+/* @media queries */
+
+@media screen and (max-width: 770px) {
+    /* header start */
+    .main-header {
+        height: 200px;
+        align-items: start;
+    }
+
+    body {
+        margin-top: 200px;
+    }
+
+    .right-header {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
+        height: 100px;
+    }
+
+    .right-header li {
+        margin-bottom: -30px;
+    }
+
+    /* header end */
+}
+
 
 
 

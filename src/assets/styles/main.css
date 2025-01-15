@@ -25,6 +25,11 @@ p {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.highlight-light {
+    font-weight: bold;
+    color: #539ab2;
+}
+
 /* start of navigation bar */
 header img {
     height: 60px;
@@ -40,6 +45,7 @@ header img {
     height: 100px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     z-index: 1;
     transition: background-color .75s ease;
 }
@@ -61,7 +67,7 @@ header img {
     margin: 50px;
 }
 
-.main-header li a {
+.right-header li a {
     text-decoration: none;
     transition: color .75s ease;
 }
@@ -73,9 +79,34 @@ header img {
     color: black;
 }
 
-.main-header li a:hover {
+.right-header li a:hover {
     text-decoration: underline;
 }
+
+.right-header li a.selected {
+    text-decoration: underline;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.logo-link a {
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: 1.5s ease;
+}
+
+.logo-link a:hover {
+    text-decoration: underline overline;
+}
+
 /* end of navigation bar */
 
 /* start of main title */
@@ -188,7 +219,7 @@ header img {
 }
 
 .main-all-projects-container img {
-    width: 34vw;
+    width: 38vw;
     height: 21vw;
     opacity: 100%;
     position: relative;

@@ -30,10 +30,17 @@ function Header() {
             {/* <img src={logo2} alt="Logo" /> */}
             <nav>
                 <ul>
-                    <li><a href="/personal-website/#/" >LK</a></li>
-                    <li><a href="/personal-website/#/characters" >CHOOSE CHARACTER</a></li>
-                    <li><a href="/personal-website/#/roadmap" >ROADMAP</a></li>
-                    <li><a href="/personal-website/#/contact" >CONTACT</a></li>
+                    <div className='header-links'>
+                        <div className='logo-link'>
+                            <li><a href="/personal-website/#/">LK</a></li>
+                        </div>
+                        <div className='right-header'>
+                            {/* include selected className if it is the current page */}
+                            <li><a href="/personal-website/#/characters" className={window.location.hash === '#/characters' ? 'selected' : ''} >CHOOSE CHARACTER</a></li>
+                            <li><a href="/personal-website/#/roadmap" className={window.location.hash === '#/roadmap' ? 'selected' : ''} >ROADMAP</a></li>
+                            <li><a href="/personal-website/#/contact" className={window.location.hash === '#/contact' ? 'selected' : ''} >CONTACT</a></li>
+                        </div>
+                    </div>
                 </ul>
             </nav>
         </header>

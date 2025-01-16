@@ -14,7 +14,7 @@ const characters = [
         name: "Full-Stack Developer",
         description: (
         <p>
-        Hey, I am Lin! I am an aspiring Software Engineer studying Computer Science and Psychology at Boston University. I have taken classes such as <span className='highlight-light'>Full-Stack Application Development</span>, <span className='highlight-light'>Software Engineering</span>, <span className='highlight-light'>Artifical Intelligence</span>, <span className='highlight-light'>Data Science Fundamentals</span>, <span className='highlight-light'>Database Systems</span>, and <span className='highlight-light'>Distributed Systems</span> to further extend my knowledge in the field. I enjoy coding with passion and purpose.
+        Hey, I am Lin! I am an aspiring Software Engineer and Game Developer, studying Computer Science and Psychology at Boston University. I have taken classes such as <span className='highlight-light'>Full-Stack Application Development</span>, <span className='highlight-light'>Software Engineering</span>, <span className='highlight-light'>Artifical Intelligence</span>, <span className='highlight-light'>Data Science Fundamentals</span>, <span className='highlight-light'>Database Systems</span>, and <span className='highlight-light'>Distributed Systems</span> to further extend my knowledge in the field. I enjoy coding with passion and purpose.
         </p>
         ),
         description2: "",

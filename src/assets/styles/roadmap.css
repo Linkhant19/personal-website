@@ -250,6 +250,29 @@
         line-height: 15px;
     }
 
+    .arrow p {
+        font-size: 8vw;
+        margin-top: 3.5vw;
+    }
+
+    .logo {
+        height: 12vw;
+        width: 12vw;
+        border-radius: 12px;
+        background-color: #fff;
+        position: absolute;
+        bottom: 30%;
+        left: 30px;
+        overflow:hidden;
+        box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.7);
+        transition: 1s ease;
+    }
+
+    .logo img {
+        height: 100%;
+        width: 100%;
+    }
+    
 }
 
 /* end of roadmap */

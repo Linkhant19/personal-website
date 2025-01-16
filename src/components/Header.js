@@ -13,7 +13,9 @@ function Header() {
         } else {
             const handleScroll = () => {
                 const scrollTop = window.scrollY;
-                const threshold = 2150;
+                // taking in account for mobile devices
+                const isMobile = window.innerWidth <= 770;
+                const threshold = isMobile ? 3050 : 2150;
                 setIsDark(scrollTop > threshold);
             };
     

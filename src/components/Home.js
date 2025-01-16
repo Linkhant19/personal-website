@@ -19,7 +19,10 @@ function Home() {
     useEffect(() => {
         const handleScroll = () => {
             const scrollTop = window.scrollY;
-            const threshold = 2150; 
+
+            // i want to check for mobile
+            const isMobile = window.innerWidth <= 770;
+            const threshold = isMobile ? 3050 : 2150; 
 
             if (scrollTop > threshold) {
                 setBgColor('#222222'); 

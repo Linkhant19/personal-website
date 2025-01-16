@@ -375,6 +375,22 @@ header img {
 /* @media queries */
 
 @media screen and (max-width: 770px) {
+    /* intro title start */
+    .main-title-container {
+        height: 100vh;
+        margin-top: 0vh;
+        margin-left: 0%;
+    }
+
+    .main-title h1 {
+        font-size: 8em;
+        letter-spacing: -5px;
+        font-family: "Bentham", serif;
+        margin: 0px;
+        line-height: 100px;
+    }
+    /* intro title end */
+
     /* header start */
     .main-header {
         height: 200px;
@@ -398,6 +414,73 @@ header img {
     }
 
     /* header end */
+
+    /* select projects start */
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        align-items: top;
+        margin: 0px;
+        margin-top: 60px;
+        max-width: 100vw;
+    }
+
+    .project img {
+        max-width: 100vw;
+        height: auto;
+    }
+
+    /* select projects end */
+
+    /* all projects start */
+    .main-all-projects {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: top;
+        justify-content: space-around;
+        gap: 50px;
+    }
+
+    .each-project img {
+        margin: 0px;
+        min-width: 90vw;
+        height: auto;
+    }
+
+    .each-project-info {
+        min-width: 90vw;
+        font-size: 30px;
+    }
+
+    .each-project-info p {
+        font-weight: normal;
+        font-size: 15px;
+        margin: 20px;
+        margin-top: -35px;
+        padding: 0px;
+        text-align: left;
+    }
+
+    .main-all-projects-container h2 {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-size: 20px;
+    }
+
+    /* all projects end */
+
+    /* coffee chat start */
+    .main-coffee-chat-container h2 {
+        font-size: 70px;
+    }
+
+    .main-coffee-chat-links {
+        margin-left: 0vw;
+    }
+    /* coffee chat end */
 }
 
 

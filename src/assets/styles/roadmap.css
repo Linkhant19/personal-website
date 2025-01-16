@@ -49,12 +49,6 @@
     height: 65%;
     width: 108%;
     transform: skew(19deg, -9deg);
-    transition: 2.5s ease;
-}
-
-.roadmap-experience:hover .text {
-    transform: skew(89deg, -9deg);
-    /* opacity: 0; */
 }
 
 .logo {
@@ -67,16 +61,11 @@
     left: 30px;
     overflow:hidden;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.7);
-    transition: 1s ease;
 }
 
 .logo img {
     height: 100%;
     width: 100%;
-}
-
-.roadmap-experience:hover .logo {
-    opacity: 0;
 }
 
 .title-text {
@@ -115,7 +104,6 @@
     height: 25vw;
     border-radius: 30px;
     transition: 1s ease;
-    transition-delay: .7s;
 }
 
 .description-text ul {
@@ -136,7 +124,6 @@
     left: 50%;
     transform: translateX(-50%);
     transition: 1s ease;
-    transition-delay: .7s;
 }
 
 .arrow p {
@@ -169,15 +156,6 @@
     }
     100% {
         width: 150vw;
-    }
-}
-
-@keyframes backgroundgold {
-    0% {
-        background-color: white;
-    }
-    100% {
-        background-color: rgb(255, 230, 141);
     }
 }
 

@@ -383,11 +383,11 @@ header img {
     }
 
     .main-title h1 {
-        font-size: 8em;
+        font-size: 25vw;
         letter-spacing: -5px;
         font-family: "Bentham", serif;
         margin: 0px;
-        line-height: 100px;
+        line-height: 20vw;
     }
     /* intro title end */
 
@@ -411,6 +411,10 @@ header img {
 
     .right-header li {
         margin-bottom: -30px;
+    }
+
+    .right-header a {
+        font-size: 3vw;
     }
 
     /* header end */

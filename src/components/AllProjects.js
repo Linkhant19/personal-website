@@ -23,7 +23,7 @@ const all_projects = [
         image_src: project4_src,
         github_link: 'https://github.com/Linkhant19/personal-website',
         description: 'This is my portfolio website (this website). \
-        I used React, JavaScript, HTML, and CSS to build this website from scratch and hosted it via Github Pages. \
+        I used React, JavaScript, HTML, and CSS to build this website from scratch and hosted it via GitHub Pages. \
         I utilized @media queries for mobile responsiveness and created a smooth, modern, and responsive user experience. \
         This website is continuously being updated with new projects and technologies.',
     },
